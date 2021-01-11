@@ -1,0 +1,23 @@
+# https://github.com/MicrosoftDocs/ml-basics/blob/master/local-setup.md
+# Also, O'Reilly HOML book, 2nd edition, page 44
+# https://github.com/ageron/handson-ml2
+
+# rm -rf /Users/cjoakim/.pyenv/versions/3.8.6/envs/localml
+
+# http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=localml
+
+ipykernel
+jupyter
+
+azure-storage-blob
+
+arrow
+matplotlib
+numpy
+pandas
+pillow
+requests
+scikit-image
+scikit-learn
+scipy
+seaborn

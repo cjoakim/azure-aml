@@ -1,3 +1,18 @@
+# cj
+
+.azureml/
+
+aml_logs/*
+
+exports.sh
+export_secrets.sh
+
+**/logs/
+**/tmp/
+
+**/.python-version
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

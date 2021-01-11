@@ -1,0 +1,51 @@
+rank,name,location,country,iata,passengers
+1,Hartsfield–Jackson Atlanta International Airport,Atlanta Georgia,United States,ATL,103902992
+2,Beijing Capital International Airport,Chaoyang-Shunyi Beijing,China,PEK,95786442
+3,Dubai International Airport,Garhoud Dubai,United Arab Emirates,DXB,88242099
+4,Tokyo Haneda Airport,Ōta Tokyo,Japan,HND,85408975
+5,Los Angeles International Airport,Los Angeles California,United States,LAX,84557968
+6,O'Hare International Airport,Chicago Illinois,United States,ORD,79828183
+7,London Heathrow Airport,Hillingdon London,United Kingdom,LHR,78014598
+8,Hong Kong International Airport,Chek Lap Kok Hong Kong,China,HKG,72665078
+9,Shanghai Pudong International Airport,Pudong Shanghai,China,PVG,70001237
+10,Paris-Charles de Gaulle Airport,Roissy-en-France Île-de-France,France,CDG,69471442
+11,Amsterdam Airport Schiphol,Haarlemmermeer North Holland,The Netherlands,AMS,68515425
+12,Dallas/Fort Worth International Airport,Dallas-Fort Worth Texas,United States,DFW,67092194
+13,Guangzhou Baiyun International Airport,Baiyun-Huadu Guangzhou Guangdong,China,CAN,65887473
+14,Frankfurt Airport,Frankfurt Hesse,Germany,FRA,64500386
+15,Istanbul Atatürk Airport,Yeşilköy Istanbul,Turkey,IST,63859785
+16,Indira Gandhi International Airport,Delhi,India,DEL,63451503
+17,Soekarno-Hatta International Airport,Tangerang Banten,Indonesia,CGK,63015620
+18,Singapore Changi Airport,Changi,Singapore,SIN,62219573
+19,Seoul Incheon International Airport,Incheon,Republic of Korea,ICN,62157834
+20,Denver International Airport,Denver Colorado,United States,DEN,61379396
+21,Suvarnabhumi Airport,Bang Phli Samut Prakan,Thailand,BKK,60860557
+22,John F. Kennedy International Airport,Queens New York New York,United States,JFK,59392500
+23,Kuala Lumpur International Airport,Sepang Selangor,Malaysia,KUL,58558440
+24,San Francisco International Airport,San Mateo County California,United States,SFO,55822129
+25,Madrid Barajas Airport,Barajas Madrid,Spain,MAD,53386075
+26,Chengdu Shuangliu International Airport,Shuangliu-Wuhou Chengdu Sichuan,China,CTU,49801693
+27,McCarran International Airport,Las Vegas Nevada,United States,LAS,48566803
+28,Barcelona–El Prat Airport,Barcelona,Spain,BCN,47262826
+29,Chhatrapati Shivaji International Airport,Mumbai Maharashtra,India,BOM,47204259
+30,Toronto Pearson International Airport,Mississauga Ontario,Canada,YYZ,47054696
+31,Seattle-Tacoma International Airport,SeaTac Washington,United States,SEA,46934194
+32,Charlotte Douglas International Airport,Charlotte North Carolina,United States,CLT,45909899
+33,London Gatwick Airport,Crawley West Sussex,United Kingdom,LGW,45561694
+34,Shenzhen Bao'an International Airport,Bao'an Shenzhen Guangdong,China,SZX,45558409
+35,Taiwan Taoyuan International Airport,Dayuan Taoyuan,Taiwan,TPE,44878703
+36,Benito Juárez International Airport,Venustiano Carranza Mexico City,Mexico,MEX,44732418
+37,Kunming Changshui International Airport,Guandu Kunming Yunnan,China,KMG,44729736
+38,Munich Airport,Freising Bavaria,Germany,MUC,44577241
+39,Orlando International Airport,Orlando Florida,United States,MCO,44511265
+40,Miami International Airport,Miami-Dade County Florida,United States,MIA,44071313
+41,Phoenix Sky Harbor International Airport,Phoenix Arizona,United States,PHX,43921670
+42,Sydney Kingsford-Smith Airport,Mascot Sydney New South Wales,Australia,SYD,43410355
+43,Newark Liberty International Airport,Newark New Jersey,United States,EWR,43393499
+44,Ninoy Aquino International Airport,Pasay/Parañaque Metro Manila,Philippines,MNL,42022484
+45,Shanghai Hongqiao International Airport,Changning-Minhang Shanghai,China,SHA,41884059
+46,Xi'an Xianyang International Airport,Weicheng Xianyang Shaanxi,China,XIY,41857406
+47,Leonardo da Vinci–Fiumicino Airport,Fiumicino Lazio,Italy,FCO,40968756
+48,George Bush Intercontinental Airport,Houston Texas,United States,IAH,40696189
+49,Narita International Airport,Narita Chiba,Japan,NRT,40631193
+50,Sheremetyevo International Airport,Northern Administrative Okrug Moscow,Russia,SVO,40092806

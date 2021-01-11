@@ -1,0 +1,16 @@
+
+# For your production environment, use 'azureml-core' instead of 'azureml-sdk'.
+azureml-sdk
+azureml-widgets
+
+arrow
+docopt
+jupyter
+matplotlib
+pillow
+requests
+numpy
+pandas
+scikit-learn
+scikit-image
+scipy

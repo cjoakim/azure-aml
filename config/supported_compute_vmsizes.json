@@ -1,0 +1,618 @@
+[
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 51200,
+    "memoryGB": 3.5,
+    "name": "Standard_D1_v2",
+    "vCPUs": 1
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 102400,
+    "memoryGB": 7.0,
+    "name": "Standard_D2_v2",
+    "vCPUs": 2
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 204800,
+    "memoryGB": 14.0,
+    "name": "Standard_D3_v2",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 409600,
+    "memoryGB": 28.0,
+    "name": "Standard_D4_v2",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 102400,
+    "memoryGB": 14.0,
+    "name": "Standard_D11_v2",
+    "vCPUs": 2
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 204800,
+    "memoryGB": 28.0,
+    "name": "Standard_D12_v2",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 409600,
+    "memoryGB": 56.0,
+    "name": "Standard_D13_v2",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 819200,
+    "memoryGB": 112.0,
+    "name": "Standard_D14_v2",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 1024000,
+    "memoryGB": 140.0,
+    "name": "Standard_D15_v2",
+    "vCPUs": 20
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 7168,
+    "memoryGB": 3.5,
+    "name": "Standard_DS1_v2",
+    "vCPUs": 1
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 14336,
+    "memoryGB": 7.0,
+    "name": "Standard_DS2_v2",
+    "vCPUs": 2
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 28672,
+    "memoryGB": 14.0,
+    "name": "Standard_DS3_v2",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 57344,
+    "memoryGB": 28.0,
+    "name": "Standard_DS4_v2",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 114688,
+    "memoryGB": 56.0,
+    "name": "Standard_DS5_v2",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 28672,
+    "memoryGB": 14.0,
+    "name": "Standard_DS11_v2",
+    "vCPUs": 2
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 57344,
+    "memoryGB": 28.0,
+    "name": "Standard_DS12_v2",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 114688,
+    "memoryGB": 56.0,
+    "name": "Standard_DS13_v2",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 229376,
+    "memoryGB": 112.0,
+    "name": "Standard_DS14_v2",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 286720,
+    "memoryGB": 140.0,
+    "name": "Standard_DS15_v2",
+    "vCPUs": 20
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 51200,
+    "memoryGB": 8.0,
+    "name": "Standard_D2_v3",
+    "vCPUs": 2
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 102400,
+    "memoryGB": 16.0,
+    "name": "Standard_D4_v3",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 204800,
+    "memoryGB": 32.0,
+    "name": "Standard_D8_v3",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 409600,
+    "memoryGB": 64.0,
+    "name": "Standard_D16_v3",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 819200,
+    "memoryGB": 128.0,
+    "name": "Standard_D32_v3",
+    "vCPUs": 32
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 1638400,
+    "memoryGB": 256.0,
+    "name": "Standard_D64_v3",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 16384,
+    "memoryGB": 8.0,
+    "name": "Standard_D2s_v3",
+    "vCPUs": 2
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 32768,
+    "memoryGB": 16.0,
+    "name": "Standard_D4s_v3",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 65536,
+    "memoryGB": 32.0,
+    "name": "Standard_D8s_v3",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 131072,
+    "memoryGB": 64.0,
+    "name": "Standard_D16s_v3",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 262144,
+    "memoryGB": 128.0,
+    "name": "Standard_D32s_v3",
+    "vCPUs": 32
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 524288,
+    "memoryGB": 256.0,
+    "name": "Standard_D64s_v3",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 16384,
+    "memoryGB": 4.0,
+    "name": "Standard_F2s_v2",
+    "vCPUs": 2
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 32768,
+    "memoryGB": 8.0,
+    "name": "Standard_F4s_v2",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 65536,
+    "memoryGB": 16.0,
+    "name": "Standard_F8s_v2",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 131072,
+    "memoryGB": 32.0,
+    "name": "Standard_F16s_v2",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 262144,
+    "memoryGB": 64.0,
+    "name": "Standard_F32s_v2",
+    "vCPUs": 32
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 524288,
+    "memoryGB": 128.0,
+    "name": "Standard_F64s_v2",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 589824,
+    "memoryGB": 144.0,
+    "name": "Standard_F72s_v2",
+    "vCPUs": 72
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 51200,
+    "memoryGB": 3.5,
+    "name": "Standard_D1",
+    "vCPUs": 1
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 102400,
+    "memoryGB": 7.0,
+    "name": "Standard_D2",
+    "vCPUs": 2
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 204800,
+    "memoryGB": 14.0,
+    "name": "Standard_D3",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 409600,
+    "memoryGB": 28.0,
+    "name": "Standard_D4",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 102400,
+    "memoryGB": 14.0,
+    "name": "Standard_D11",
+    "vCPUs": 2
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 204800,
+    "memoryGB": 28.0,
+    "name": "Standard_D12",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 409600,
+    "memoryGB": 56.0,
+    "name": "Standard_D13",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 819200,
+    "memoryGB": 112.0,
+    "name": "Standard_D14",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 1,
+    "maxResourceVolumeMB": 344064,
+    "memoryGB": 112.0,
+    "name": "Standard_NC6s_v3",
+    "vCPUs": 6
+  },
+  {
+    "gpus": 2,
+    "maxResourceVolumeMB": 688128,
+    "memoryGB": 224.0,
+    "name": "Standard_NC12s_v3",
+    "vCPUs": 12
+  },
+  {
+    "gpus": 4,
+    "maxResourceVolumeMB": 1376256,
+    "memoryGB": 448.0,
+    "name": "Standard_NC24rs_v3",
+    "vCPUs": 24
+  },
+  {
+    "gpus": 4,
+    "maxResourceVolumeMB": 1376256,
+    "memoryGB": 448.0,
+    "name": "Standard_NC24s_v3",
+    "vCPUs": 24
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 8192000,
+    "memoryGB": 1000.0,
+    "name": "Standard_M64",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 8192000,
+    "memoryGB": 1750.0,
+    "name": "Standard_M64m",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 16384000,
+    "memoryGB": 2000.0,
+    "name": "Standard_M128",
+    "vCPUs": 128
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 16384000,
+    "memoryGB": 3800.0,
+    "name": "Standard_M128m",
+    "vCPUs": 128
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 256000,
+    "memoryGB": 218.75,
+    "name": "Standard_M8-2ms",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 256000,
+    "memoryGB": 218.75,
+    "name": "Standard_M8-4ms",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 256000,
+    "memoryGB": 218.75,
+    "name": "Standard_M8ms",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 512000,
+    "memoryGB": 437.5,
+    "name": "Standard_M16-4ms",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 512000,
+    "memoryGB": 437.5,
+    "name": "Standard_M16-8ms",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 512000,
+    "memoryGB": 437.5,
+    "name": "Standard_M16ms",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 1024000,
+    "memoryGB": 875.0,
+    "name": "Standard_M32-8ms",
+    "vCPUs": 32
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 1024000,
+    "memoryGB": 875.0,
+    "name": "Standard_M32-16ms",
+    "vCPUs": 32
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 1024000,
+    "memoryGB": 256.0,
+    "name": "Standard_M32ls",
+    "vCPUs": 32
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 1024000,
+    "memoryGB": 875.0,
+    "name": "Standard_M32ms",
+    "vCPUs": 32
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 1024000,
+    "memoryGB": 192.0,
+    "name": "Standard_M32ts",
+    "vCPUs": 32
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 2048000,
+    "memoryGB": 1750.0,
+    "name": "Standard_M64-16ms",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 2048000,
+    "memoryGB": 1750.0,
+    "name": "Standard_M64-32ms",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 2048000,
+    "memoryGB": 512.0,
+    "name": "Standard_M64ls",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 2048000,
+    "memoryGB": 1750.0,
+    "name": "Standard_M64ms",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 2048000,
+    "memoryGB": 1000.0,
+    "name": "Standard_M64s",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 4096000,
+    "memoryGB": 3800.0,
+    "name": "Standard_M128-32ms",
+    "vCPUs": 128
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 4096000,
+    "memoryGB": 3800.0,
+    "name": "Standard_M128-64ms",
+    "vCPUs": 128
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 4096000,
+    "memoryGB": 3800.0,
+    "name": "Standard_M128ms",
+    "vCPUs": 128
+  },
+  {
+    "gpus": 0,
+    "maxResourceVolumeMB": 4096000,
+    "memoryGB": 2000.0,
+    "name": "Standard_M128s",
+    "vCPUs": 128
+  },
+  {
+    "gpus": 1,
+    "maxResourceVolumeMB": 389120,
+    "memoryGB": 56.0,
+    "name": "Standard_NV6",
+    "vCPUs": 6
+  },
+  {
+    "gpus": 2,
+    "maxResourceVolumeMB": 696320,
+    "memoryGB": 112.0,
+    "name": "Standard_NV12",
+    "vCPUs": 12
+  },
+  {
+    "gpus": 4,
+    "maxResourceVolumeMB": 1474560,
+    "memoryGB": 224.0,
+    "name": "Standard_NV24",
+    "vCPUs": 24
+  },
+  {
+    "gpus": 1,
+    "maxResourceVolumeMB": 389120,
+    "memoryGB": 56.0,
+    "name": "Standard_NC6",
+    "vCPUs": 6
+  },
+  {
+    "gpus": 2,
+    "maxResourceVolumeMB": 696320,
+    "memoryGB": 112.0,
+    "name": "Standard_NC12",
+    "vCPUs": 12
+  },
+  {
+    "gpus": 4,
+    "maxResourceVolumeMB": 1474560,
+    "memoryGB": 224.0,
+    "name": "Standard_NC24",
+    "vCPUs": 24
+  },
+  {
+    "gpus": 4,
+    "maxResourceVolumeMB": 1474560,
+    "memoryGB": 224.0,
+    "name": "Standard_NC24r",
+    "vCPUs": 24
+  },
+  {
+    "gpus": 1,
+    "maxResourceVolumeMB": 180224,
+    "memoryGB": 28.0,
+    "name": "Standard_NC4as_T4_v3",
+    "vCPUs": 4
+  },
+  {
+    "gpus": 1,
+    "maxResourceVolumeMB": 360448,
+    "memoryGB": 56.0,
+    "name": "Standard_NC8as_T4_v3",
+    "vCPUs": 8
+  },
+  {
+    "gpus": 1,
+    "maxResourceVolumeMB": 360448,
+    "memoryGB": 112.0,
+    "name": "Standard_NC16as_T4_v3",
+    "vCPUs": 16
+  },
+  {
+    "gpus": 4,
+    "maxResourceVolumeMB": 2883584,
+    "memoryGB": 448.0,
+    "name": "Standard_NC64as_T4_v3",
+    "vCPUs": 64
+  },
+  {
+    "gpus": 1,
+    "maxResourceVolumeMB": 344064,
+    "memoryGB": 112.0,
+    "name": "Standard_NV12s_v3",
+    "vCPUs": 12
+  },
+  {
+    "gpus": 2,
+    "maxResourceVolumeMB": 688128,
+    "memoryGB": 224.0,
+    "name": "Standard_NV24s_v3",
+    "vCPUs": 24
+  },
+  {
+    "gpus": 4,
+    "maxResourceVolumeMB": 1376256,
+    "memoryGB": 448.0,
+    "name": "Standard_NV48s_v3",
+    "vCPUs": 48
+  }
+]
