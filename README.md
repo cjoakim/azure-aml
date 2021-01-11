@@ -67,6 +67,18 @@ $ az ml --help
 - Part 3/4: https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-train
 - Part 4/4: https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-bring-data
 
+---
+
+## Designer
+
+<p align="center"><img src="img/aml-designer-automobile-prices-1.png"></p>
+
+---
+
+<p align="center"><img src="img/aml-designer-automobile-prices-2.png"></p>
+
+---
+
 ## Other
 
 - PyPI: https://pypi.org/
