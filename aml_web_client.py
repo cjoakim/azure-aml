@@ -1,19 +1,19 @@
 """
 Usage:
-    source exports.sh ; python aml_web_client.py get_swagger_definition
-    source exports.sh ; python aml_web_client.py score_one <lat> <lng>
-    source exports.sh ; python aml_web_client.py score_one 35.22718156801215 -80.84309935569763 --proba
-    source exports.sh ; python aml_web_client.py score_one 36.37149605216152 -121.90174877643585
+    python aml_web_client.py get_swagger_definition
+    python aml_web_client.py score_one <lat> <lng>
+    python aml_web_client.py score_one 35.22718156801215 -80.84309935569763 --proba
+    python aml_web_client.py score_one 36.37149605216152 -121.90174877643585
     -
-    source exports.sh ; python aml_web_client.py score_one_v2 35.22718156801215 -80.84309935569763
-    source exports.sh ; python aml_web_client.py score_one_v2 36.37149605216152 -121.90174877643585
+    python aml_web_client.py score_one_v2 35.22718156801215 -80.84309935569763
+    python aml_web_client.py score_one_v2 36.37149605216152 -121.90174877643585
     -
-    source exports.sh ; python aml_web_client.py score_one_v3 35.22718156801215 -80.84309935569763
-    source exports.sh ; python aml_web_client.py score_one_v3 36.37149605216152 -121.90174877643585
+    python aml_web_client.py score_one_v3 35.22718156801215 -80.84309935569763
+    python aml_web_client.py score_one_v3 36.37149605216152 -121.90174877643585
     -
-    source exports.sh ; python aml_web_client.py score_csv_file <infile>
-    source exports.sh ; python aml_web_client.py score_csv_file datasets/postal_codes/test_locations.csv
-    source exports.sh ; python aml_web_client.py score_csv_file datasets/postal_codes/test_locations.csv --proba
+    python aml_web_client.py score_csv_file <infile>
+    python aml_web_client.py score_csv_file datasets/postal_codes/test_locations.csv
+    python aml_web_client.py score_csv_file datasets/postal_codes/test_locations.csv --proba
 """
 
 __author__  = 'Chris Joakim'
@@ -50,8 +50,8 @@ class PostData():
 class AmlWebserviceClient():
 
     def __init__(self):
-        self.base_url    = os.environ['AML_WEB_BASE_URL']
-        self.auth_key    = os.environ['AML_WEB_AUTH_KEY']
+        self.base_url = os.environ['AZURE_ML_WEB_BASE_URL']
+        self.auth_key = os.environ['AZURE_ML_WEB_AUTH_KEY']
 
         if self.cli_flag_arg_present('--local'):
             self.base_url = 'http://localhost:8890'

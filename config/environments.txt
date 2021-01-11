@@ -1,5 +1,5 @@
 list_environments
-get_workspace: cjoakimaml2
+get_workspace: cjoakimaml
 ---
 name:  AzureML-Tutorial
 packages:  channels:
@@ -643,8 +643,8 @@ dependencies:
 - r-tseries=0.10
 - r=3.5.1
 - pip:
-  - azureml-designer-classic-modules==0.0.144
-name: azureml_2eca47bbf9bbba54fe7fe74b03624508
+  - azureml-designer-classic-modules==0.0.145
+name: azureml_7465168187f27744627150d4577557c1
 
 ---
 name:  AzureML-Designer-Recommender
@@ -654,8 +654,8 @@ dependencies:
 - pip=20.2
 - python=3.6.8
 - pip:
-  - azureml-designer-recommender-modules==0.0.23
-name: azureml_7c1e6e633f5c5d74edb71620a25923e2
+  - azureml-designer-recommender-modules==0.0.24
+name: azureml_59bd457d58ec1593b9815473f5bfac12
 
 ---
 name:  AzureML-Designer-Transform
@@ -665,8 +665,8 @@ dependencies:
 - pip=20.2
 - python=3.6.8
 - pip:
-  - azureml-designer-datatransform-modules==0.0.67
-name: azureml_623c3e0e76142af63711f8a502fa9f43
+  - azureml-designer-datatransform-modules==0.0.68
+name: azureml_f649be76f323107423aa17ee2363600b
 
 ---
 name:  AzureML-Designer
@@ -677,10 +677,10 @@ dependencies:
 - python=3.6.8
 - scikit-surprise=1.0.6
 - pip:
-  - azureml-designer-classic-modules==0.0.144
+  - azureml-designer-classic-modules==0.0.145
   - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz#egg=en_core_web_sm
   - spacy==2.1.7
-name: azureml_dd368fc869617e417e17e35f21e4f1d5
+name: azureml_ddbd37e7a924d9a0679cf657ceb21c06
 
 ---
 name:  AzureML-Designer-IO
@@ -691,8 +691,8 @@ dependencies:
 - python=3.6.8
 - pip:
   - azureml-dataset-runtime>=1.6
-  - azureml-designer-dataio-modules==0.0.50
-name: azureml_c79560ec553067468b92913e2bdba11a
+  - azureml-designer-dataio-modules==0.0.51
+name: azureml_567b2923dc5dbbf54d72bc1732634a28
 
 ---
 name:  AzureML-Designer-NLP
@@ -811,8 +811,8 @@ dependencies:
 - pip=20.2
 - python=3.6.8
 - pip:
-  - azureml-designer-cv-modules[pytorch]==0.0.24
-name: azureml_c67aaae7e813cbf26f18175058ac4ccd
+  - azureml-designer-cv-modules[pytorch]==0.0.25
+name: azureml_446f69a7ae055d07d65a243a16199fee
 
 ---
 name:  AzureML-Designer-Score
@@ -832,8 +832,8 @@ dependencies:
 - pip=20.2
 - python=3.6.8
 - pip:
-  - azureml-designer-pytorch-modules==0.0.27
-name: azureml_574539f46b20d3e5109d6e2b5baaa373
+  - azureml-designer-pytorch-modules==0.0.28
+name: azureml_8830773848bebfc03fdc2e992cc34833
 
 ---
 name:  AzureML-Designer-CV
@@ -843,8 +843,8 @@ dependencies:
 - pip=20.2
 - python=3.6.8
 - pip:
-  - azureml-designer-cv-modules==0.0.24
-name: azureml_a405cfb567cc72d7bfb5f5c308ee3fae
+  - azureml-designer-cv-modules==0.0.25
+name: azureml_63297ef2b2a2637a2da0e6724d129650
 
 ---
 name:  AzureML-TensorFlow-2.1-GPU
@@ -886,8 +886,8 @@ dependencies:
 - pip=20.2
 - python=3.6.8
 - pip:
-  - azureml-designer-pytorch-modules==0.0.27
-name: azureml_574539f46b20d3e5109d6e2b5baaa373
+  - azureml-designer-pytorch-modules==0.0.28
+name: azureml_8830773848bebfc03fdc2e992cc34833
 
 ---
 name:  AzureML-AutoML-DNN-Vision-GPU
@@ -919,8 +919,8 @@ dependencies:
 - python=3.6.8
 - vowpalwabbit=8.8.1
 - pip:
-  - azureml-designer-vowpal-wabbit-modules==0.0.18
-name: azureml_b94d57a2018dc96b58b983cbbca08ead
+  - azureml-designer-vowpal-wabbit-modules==0.0.19
+name: azureml_f5b80451de54eff3cc5ab1dd84ab5edd
 
 ---
 name:  AzureML-TensorFlow-2.2-GPU

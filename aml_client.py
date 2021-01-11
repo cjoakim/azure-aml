@@ -14,10 +14,10 @@ Usage:
   python aml_client.py delete_compute_target compute2
   python aml_client.py list_compute_vmsizes compute2
   -
-  python aml_client.py create_compute_instance nb2
-  python aml_client.py delete_compute_instance nb2
-  python aml_client.py start_compute_instance nb2
-  python aml_client.py stop_compute_instance nb2
+  python aml_client.py create_compute_instance nb3
+  python aml_client.py delete_compute_instance nb3
+  python aml_client.py start_compute_instance nb3
+  python aml_client.py stop_compute_instance nb3
   -
   python aml_client.py create_blob_datastore cjoakimstorage_aml aml
   python aml_client.py create_dataset_from_datastore default openflights_airlines.csv
@@ -38,8 +38,9 @@ Usage:
   python aml_client.py set_secrets
   -
   python aml_client.py submit_experiment hello.py --wait 
-  python aml_client.py submit_experiment explore_env.py
+  python aml_client.py submit_experiment explore_env.py --wait
   python aml_client.py submit_experiment train_iris.py --wait
+  python aml_client.py submit_experiment delete-blobs.py --wait
   python aml_client.py submit_experiment skl-knn-us-states-geo.py --wait --register-model
   -
   python aml_client.py submit_automl_experiment skl-knn-us-states-geo.py --wait
@@ -49,7 +50,7 @@ Usage:
   -
   python aml_client.py create_conda_dependencies_yml skl-knn-us-states-geo
 
-  python aml_client.py deploy_model_to_aci skl-knn-us-states-geo 3
+  python aml_client.py deploy_model_to_aci skl-knn-us-states-geo 1
   python aml_client.py deploy_model_to_aci_v2 skl-knn-us-states-geo 3
   python aml_client.py deploy_model_to_aks skl-knn-us-states-geo 3 
   python aml_client.py deploy_model_to_local skl-knn-us-states-geo 3 

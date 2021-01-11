@@ -42,7 +42,7 @@ def main():
     print('storage_cstr: {} {}'.format(storage_cstr, len(storage_cstr)))
 
     print('Dataset.get_by_name...')
-    iris = Dataset.get_by_name(ws, name='iris.csv').to_pandas_dataframe()
+    iris = Dataset.get_by_name(ws, name='iris/iris_data.csv').to_pandas_dataframe()
     iris.head()
     iris.describe()
 

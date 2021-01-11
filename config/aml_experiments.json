@@ -9,6 +9,25 @@
     "env_name": "AzureML-Tutorial",
     "max_run_duration_seconds": 3600
   },
+  "explore_env": {
+    "args": [
+      "--person",
+      "Azure",
+      "--verbose"
+    ],
+    "compute_name": "compute2",
+    "env_name": "AzureML-Tutorial",
+    "max_run_duration_seconds": 3600
+  },
+  "delete-blobs": {
+    "args": [
+      "pyenv.sh",
+      "not-there.csv"
+    ],
+    "compute_name": "compute2",
+    "env_name": "AzureML-Tutorial",
+    "max_run_duration_seconds": 3600
+  },
   "skl-knn-us-states-geo": {
     "args": [
       "--display-secrets",

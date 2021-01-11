@@ -24,5 +24,9 @@
   "nb2": {
     "type": "compute instance (for notebooks)",
     "vm_size": "STANDARD_D2_V2"
+  },
+  "nb3": {
+    "type": "compute instance (for notebooks)",
+    "vm_size": "Standard_DS3_v2"
   }
 }

@@ -19,7 +19,6 @@ from azure.core.exceptions import ResourceNotFoundError
 class BlobUtil():
 
     def __init__(self, run=None, container_name='pipelines'):
-        #conn_str = os.environ['AZURE_STORAGE_CONNECTION_STRING']
         conn_str = run.get_secret(name='AZURE-STORAGE-CONNECTION-STRING')
         blob_svc_client = BlobServiceClient.from_connection_string(conn_str)
         self.container_client = blob_svc_client.get_container_client(container_name)
