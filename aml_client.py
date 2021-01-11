@@ -3,12 +3,12 @@ The purpose of this module is to interact with an Azure Machine Service
 via the Python SDK (azureml-sdk).
 
 Usage:
-  python aml_client.py create_compute_config
-  python aml_client.py create_experiments_config
-  -
-  python aml_client.py create_workspace cjoakimaml2 eastus2
+  python aml_client.py create_workspace cjoakimaml eastus2
   python aml_client.py get_workspace_details
   python aml_client.py connect_to_workspace subscription_id, resource_group, name
+  -
+  python aml_client.py create_compute_config
+  python aml_client.py create_experiments_config
   -
   python aml_client.py create_compute_target compute11
   python aml_client.py delete_compute_target compute2
@@ -68,7 +68,7 @@ Options:
 __author__  = 'Chris Joakim'
 __email__   = "chjoakim@microsoft.com,christopher.joakim@gmail.com"
 __license__ = "None"
-__version__ = "2020/12/31"
+__version__ = "2021/01/11"
 
 import json
 import logging
@@ -893,7 +893,7 @@ def deploy_model_to_aks(name, version):
         ws = get_workspace()
 
         # Create an AKS cluster
-        cluster_name = 'cjoakimaml2aks2'
+        cluster_name = 'cjoakimamlaks2'
         print('creating AKS cluster: {}'.format(cluster_name))
         compute_config = AksCompute.provisioning_configuration(location='eastus2')
         aks_cluster = ComputeTarget.create(ws, cluster_name, compute_config)

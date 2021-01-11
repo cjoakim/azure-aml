@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Register a model created as part of of an AML Experiment run.
-# Chris Joakim, Microsoft, 2020/12/13
+# Chris Joakim, Microsoft, 2021/01/11
 
 # See https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?tabs=azcli#registermodel
 
@@ -9,8 +9,8 @@
 # az login
 # az account set -s $AZURE_SUBSCRIPTION_ID
 
-workspace='cjoakimaml6'
-resource_group='cjoakimaml6'
+workspace='cjoakimaml'
+resource_group='cjoakimaml'
 model_name='skl-knn-us-states-geo'
 model_path='outputs/skl-knn-us-states-geo.joblib'
 model_framework='ScikitLearn'

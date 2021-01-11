@@ -4,7 +4,7 @@
 __author__  = 'Chris Joakim'
 __email__   = "chjoakim@microsoft.com,christopher.joakim@gmail.com"
 __license__ = "None"
-__version__ = "2020/12/23"
+__version__ = "2021/01/11"
 
 import joblib
 import json

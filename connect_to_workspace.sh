@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Connect to an existing Azure Machine Learning service.
-# Chris Joakim, Microsoft, 2020/12/21
+# Chris Joakim, Microsoft, 2021/01/11
 #
 # Usage
 # ./connect_to_workspace.sh <rg> <name>

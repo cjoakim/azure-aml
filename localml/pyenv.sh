@@ -2,11 +2,14 @@
 
 # Bash script to create, populate, and activate the python virtual environment
 # for this project with pyenv.
-# Chris Joakim, 2020/11/27
+# Chris Joakim, 2021/01/11
 
 # These are the only two values that need to change between projects:
 venv_name="localml"
 python_version="3.8.6"  # 3.7.9
+
+venv_dir=$HOME/.pyenv/versions/3.8.6/envs/localml/
+rm -rf $venv_dir
 
 echo '=== creating virtualenv '$venv_name
 rm .python-version

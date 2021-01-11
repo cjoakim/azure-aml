@@ -2,16 +2,16 @@
 
 # Bash script to create, populate, and activate the python virtual environment
 # for this project with pyenv.
-# Chris Joakim, 2021/01/08
+# Chris Joakim, 2021/01/11
 
 echo '=== removing env directory, .python-version, requirements.txt'
 rm .python-version
-rm -rf /Users/cjoakim/.pyenv/versions/3.7.9/envs/aml/
-rm -rf /Users/cjoakim/.pyenv/versions/3.8.6/envs/aml/
+venv_dir=$HOME/.pyenv/versions/3.8.6/envs/aml/
+rm -rf $venv_dir
 rm requirements.txt
 
 # These are the only two values that need to change between projects:
-venv_name="amlv2"
+venv_name="aml"
 python_version="3.8.6"  # 3.7.9
 
 echo '=== creating virtualenv '$venv_name

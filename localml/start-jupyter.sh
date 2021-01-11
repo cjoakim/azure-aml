@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Chris Joakim, 2020/11/25
+# Chris Joakim, 2021/01/11
 
 # python -m ipykernel install --user --name=localml
 
