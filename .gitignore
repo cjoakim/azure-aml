@@ -1,6 +1,7 @@
 # cj
 
 .azureml/
+.idea/
 
 aml_logs/*
 
