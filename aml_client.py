@@ -69,7 +69,7 @@ Options:
 __author__  = 'Chris Joakim'
 __email__   = "chjoakim@microsoft.com,christopher.joakim@gmail.com"
 __license__ = "None"
-__version__ = "2021/01/11"
+__version__ = "2021/02/03"
 
 import json
 import logging

@@ -5,7 +5,7 @@
       "Azure",
       "--verbose"
     ],
-    "compute_name": "compute2",
+    "compute_name": "compute3",
     "env_name": "AzureML-Tutorial",
     "max_run_duration_seconds": 3600
   },
@@ -15,7 +15,7 @@
       "Azure",
       "--verbose"
     ],
-    "compute_name": "compute2",
+    "compute_name": "compute3",
     "env_name": "AzureML-Tutorial",
     "max_run_duration_seconds": 3600
   },
@@ -24,7 +24,7 @@
       "pyenv.sh",
       "not-there.csv"
     ],
-    "compute_name": "compute2",
+    "compute_name": "compute3",
     "env_name": "AzureML-Tutorial",
     "max_run_duration_seconds": 3600
   },
@@ -33,7 +33,7 @@
       "--display-secrets",
       "--verbose"
     ],
-    "compute_name": "compute2",
+    "compute_name": "compute3",
     "env_name": "AzureML-Tutorial",
     "max_run_duration_seconds": 3600
   },
@@ -42,22 +42,22 @@
       "--display-secrets",
       "--verbose"
     ],
-    "compute_name": "compute2",
+    "compute_name": "compute3",
     "env_name": "AzureML-Tutorial",
     "max_run_duration_seconds": 3600
   },
   "skl-knn-us-states-geo-pipeline1": {
-    "compute_name": "compute2",
+    "compute_name": "compute3",
     "env_name": "AzureML-Tutorial",
     "max_run_duration_seconds": 3600
   },
   "skl-knn-us-states-geo-pipeline2": {
-    "compute_name": "compute2",
+    "compute_name": "compute3",
     "env_name": "AzureML-Tutorial",
     "max_run_duration_seconds": 3600
   },
   "train_iris": {
-    "compute_name": "compute2",
+    "compute_name": "compute3",
     "env_name": "AzureML-Tutorial",
     "max_run_duration_seconds": 3600,
     "args": []
